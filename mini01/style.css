@@ -35,7 +35,7 @@ body {
   display: inline-block;
 }
 
-/* 커서 */
+/* 커서 생성 */
 #dynamic::after {
   content: '';
   display: block;
