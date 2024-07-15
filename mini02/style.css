@@ -15,7 +15,7 @@ body {
 
 .calculator {
   width: 287px;
-  border: 1px solid #6d6d6d;
+  border: 1px solid #4d4d4d;
   border-radius: 5px;
   background-color: #ccc;
   padding: 5px;
@@ -32,23 +32,47 @@ body {
   border: 2px solid #6d6d6d;
   cursor: pointer;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 .calculator form input:hover {
-  border: 2px solid #6d6d6d;
-  box-shadow: 1px 1px 2px #333;
+  border: 2px solid #4d4d4d;
+  box-shadow: 1px 1px 5px #4d4d4d;
 }
 
 .calculator form .clear {
   background-color: rgb(250, 98, 98);
 }
+.calculator form .clear:hover {
+  border: 2px solid rgb(241, 58, 58);
+  box-shadow: 1px 1px 5px rgb(241, 58, 58);
+}
+
+.calculator form .delete {
+  background-color: rgb(78, 169, 255);
+}
+
+.calculator form .delete:hover {
+  border: 2px solid rgb(0, 132, 255);
+  box-shadow: 1px 1px 5px rgb(0, 132, 255);
+}
 
 .calculator form .operator {
-  background-color: rgb(253, 171, 19);
+  background-color: rgb(255, 177, 31);
+}
+
+.calculator form .operator:hover {
+  border: 2px solid rgb(255, 131, 29);
+  box-shadow: 1px 1px 5px rgb(255, 131, 29);
 }
 
 .calculator form .dot {
-  background-color: rgb(36, 179, 119);
+  background-color: rgb(15, 192, 168);
+}
+
+.calculator form .dot:hover {
+  border: 2px solid rgb(2, 128, 117);
+  box-shadow: 1px 1px 5px rgb(2, 128, 117);
 }
 
 /* 칸 너비 설정 */
@@ -59,7 +83,7 @@ body {
 }
 
 .calculator form .clear {
-  grid-column: span 3;
+  grid-column: span 2;
 }
 
 .calculator form .result {
