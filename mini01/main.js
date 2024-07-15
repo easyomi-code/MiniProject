@@ -1,7 +1,4 @@
 let target = document.querySelector('#dynamic');
-let stringArr = ['Learn to HTML', 'Learn to CSS', 'Learn to JavaScript'];
-let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
-let selectStringArr = selectString.split('');
 
 function randomString() {
   let stringArr = ['Learn to HTML', 'Learn to CSS', 'Learn to JavaScript'];
@@ -11,7 +8,7 @@ function randomString() {
   return selectStringArr;
 }
 
-// 타이핑 리셋
+// ◎ 타이핑 리셋
 function resetTyping() {
   target.textContent = '';
   dynamic(randomString());
@@ -38,7 +35,7 @@ dynamic(randomString());
 // console.log(selectString);
 // console.log(selectStringArr);
 
-// 커서 깜빡임 효과
+// ◎ 커서 깜빡임 효과
 function blink() {
   target.classList.toggle('active');
 }
