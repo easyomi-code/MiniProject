@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333333;
+}
+
+.calculator {
+  border: 1px solid #333;
+  background-color: #ccc;
+  padding: 5px;
+}
+
+.clear {
+  background-color: rgb(45, 197, 134);
+}
+
+.operator {
+  background-color: rgb(253, 171, 19);
+}
+
+.dot {
+  background-color: rgb(250, 98, 98);
+}
