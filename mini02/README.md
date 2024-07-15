@@ -11,6 +11,6 @@
 3. 소수점 입력
 4. 실시간 계산
 ### < 출처 >
-이 프로젝트는 [Youtube(수코딩)](https://youtu.be/rWFAR1mql8Q?si=nr64v7R7DFs5diDd) 를 참고하여 만들어졌습니다.
+이 프로젝트는 [Youtube(수코딩)](https://youtu.be/rWFAR1mql8Q?si=nr64v7R7DFs5diDd) 를 참고하여 만들었습니다.
 ### < 저자 >
 **Easyomi_Code** - [💻](https://github.com/easyomi-code)
