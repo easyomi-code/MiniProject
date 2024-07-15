@@ -1,5 +1,5 @@
-#  MiniProject(HTML, CSS, JavaScript)
-### 📍 [**01 - Typing Text**](https://github.com/easyomi-code/MiniProject/tree/main/mini01)
+# 📍 MiniProject 01 - Typing Text
+### ✅ [**01 - Typing Text**](https://github.com/easyomi-code/MiniProject/tree/main/mini01)
 타이핑 효과 랜딩 페이지 만들기
 ### < 프로젝트 소개 >
 첫 번째 프로젝트는 랜덤한 텍스트가 타이핑 효과로 나타나는 간단한 랜딩 페이지입니다.
