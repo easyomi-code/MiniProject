@@ -19,6 +19,12 @@
         />
         <input
           type="button"
+          class="delete"
+          value="←"
+          onclick="document.forms.output.value=document.forms.output.value.slice(0, -1)"
+        />
+        <input
+          type="button"
           class="operator"
           value="/"
           onclick="document.forms.output.value+='/'"
