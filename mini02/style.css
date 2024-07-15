@@ -17,7 +17,7 @@ body {
   width: 287px;
   border: 1px solid #4d4d4d;
   border-radius: 5px;
-  background-color: #ccc;
+  background-color: #cccccc;
   padding: 5px;
 }
 
@@ -59,6 +59,7 @@ body {
 
 .calculator form .operator {
   background-color: rgb(255, 177, 31);
+  border-radius: 50px;
 }
 
 .calculator form .operator:hover {
@@ -86,8 +87,12 @@ body {
   grid-column: span 2;
 }
 
-.calculator form .result {
+.calculator form .zero {
   grid-column: span 2;
+}
+
+.calculator form .result {
+  grid-column: span 1;
 }
 
 .title {
